@@ -1,6 +1,6 @@
 from sys import stdin
 
-with open("/home/pro41216@spseol.cz/wnet_H/PRG/práce_se_soubory/myfile.txt", "r") as f:
+with open("WorkingWithFiles/myfile.txt", "r") as f:
     znak = f.read(1)
     triznaky = f.read(3)
     radek = f.readline()
